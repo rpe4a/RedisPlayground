@@ -5,6 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "src\Sandbox\Sandbox.csproj", "{A0DE4908-A147-4FD3-823A-4936D9ECFB9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "src\Publisher\Publisher.csproj", "{6F114DEC-B870-485B-BCF5-6D2C99087977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "src\Subscriber\Subscriber.csproj", "{E9C34593-78B3-42DE-A6D6-0A1395195D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisStreamWriter", "src\RedisStreamWriter\RedisStreamWriter.csproj", "{1CCB7BB0-6744-4572-89A8-0832EB19760E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisStreamReader", "src\RedisStreamReader\RedisStreamReader.csproj", "{DFC3979C-E4F8-4D54-89A0-843A9FC72873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisStreamConsumerGroup1Reader", "src\RedisStreamConsumerGroup1Reader\RedisStreamConsumerGroup1Reader.csproj", "{30E7A535-F264-4B9B-AAD9-06C61D43F8C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisStreamConsumerGroup2Reader", "src\RedisStreamConsumerGroup2Reader\RedisStreamConsumerGroup2Reader.csproj", "{4A27387E-A816-4545-9522-0804D705418C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +30,29 @@ Global
 		{A0DE4908-A147-4FD3-823A-4936D9ECFB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0DE4908-A147-4FD3-823A-4936D9ECFB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0DE4908-A147-4FD3-823A-4936D9ECFB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F114DEC-B870-485B-BCF5-6D2C99087977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F114DEC-B870-485B-BCF5-6D2C99087977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F114DEC-B870-485B-BCF5-6D2C99087977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F114DEC-B870-485B-BCF5-6D2C99087977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C34593-78B3-42DE-A6D6-0A1395195D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C34593-78B3-42DE-A6D6-0A1395195D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C34593-78B3-42DE-A6D6-0A1395195D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C34593-78B3-42DE-A6D6-0A1395195D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCB7BB0-6744-4572-89A8-0832EB19760E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCB7BB0-6744-4572-89A8-0832EB19760E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCB7BB0-6744-4572-89A8-0832EB19760E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCB7BB0-6744-4572-89A8-0832EB19760E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC3979C-E4F8-4D54-89A0-843A9FC72873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC3979C-E4F8-4D54-89A0-843A9FC72873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC3979C-E4F8-4D54-89A0-843A9FC72873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC3979C-E4F8-4D54-89A0-843A9FC72873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E7A535-F264-4B9B-AAD9-06C61D43F8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E7A535-F264-4B9B-AAD9-06C61D43F8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E7A535-F264-4B9B-AAD9-06C61D43F8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E7A535-F264-4B9B-AAD9-06C61D43F8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A27387E-A816-4545-9522-0804D705418C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A27387E-A816-4545-9522-0804D705418C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A27387E-A816-4545-9522-0804D705418C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A27387E-A816-4545-9522-0804D705418C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
