@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisStreamConsumerGroup1Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisStreamConsumerGroup2Reader", "src\RedisStreamConsumerGroup2Reader\RedisStreamConsumerGroup2Reader.csproj", "{4A27387E-A816-4545-9522-0804D705418C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRedisStackSandbox", "src\NRedisStackSandbox\NRedisStackSandbox.csproj", "{11DA495A-B262-41C5-80B9-B16BD30CACAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiRedisOM", "src\WebApiRedisOM\WebApiRedisOM.csproj", "{F1C8EB27-E025-4E48-A96A-6CA79601641B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,13 @@ Global
 		{4A27387E-A816-4545-9522-0804D705418C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A27387E-A816-4545-9522-0804D705418C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A27387E-A816-4545-9522-0804D705418C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DA495A-B262-41C5-80B9-B16BD30CACAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DA495A-B262-41C5-80B9-B16BD30CACAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DA495A-B262-41C5-80B9-B16BD30CACAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DA495A-B262-41C5-80B9-B16BD30CACAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C8EB27-E025-4E48-A96A-6CA79601641B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C8EB27-E025-4E48-A96A-6CA79601641B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C8EB27-E025-4E48-A96A-6CA79601641B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C8EB27-E025-4E48-A96A-6CA79601641B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
